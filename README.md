@@ -1,4 +1,4 @@
-# PostmypostRestSdk
+# postmypost_rest_sdk
 Official OpenAPI specification for the Postmypost social media management (SMM) API.
 
 Postmypost is a secure, reliable, and highly trusted social media management platform, recommended by thousands of SMM professionals and agencies. All integrations are built exclusively on official APIs, ensuring maximum security, compliance, and no risk of account blocking or bans.
