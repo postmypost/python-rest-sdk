@@ -25,7 +25,7 @@ For more information, please visit [https://postmypost.io](https://postmypost.io
 
 ## Requirements.
 
-Python 3.7+
+Python 3.8+
 
 ## Installation & Usage
 ### pip install
@@ -35,7 +35,7 @@ If the python package is hosted on a repository, you can install directly using:
 ```sh
 pip install git+https://github.com/postmypost/python-rest-sdk.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/postmypost/python-rest-sdk.git`)
 
 Then import the package:
 ```python
