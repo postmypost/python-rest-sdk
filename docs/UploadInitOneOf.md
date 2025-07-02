@@ -6,8 +6,8 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** | Upload ID | 
-**name** | **str** | File name | 
 **url** | **str** | URL to the uploaded file | 
+**size** | **int** | File size in bytes | 
 **status** | [**UploadStatusEnum**](UploadStatusEnum.md) |  | 
 
 ## Example

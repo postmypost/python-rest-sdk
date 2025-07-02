@@ -6,7 +6,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** | Upload ID | 
-**status** | [**UploadStatusEnum**](UploadStatusEnum.md) |  | [optional] 
+**status** | [**UploadStatusEnum**](UploadStatusEnum.md) |  | 
 
 ## Example
 
