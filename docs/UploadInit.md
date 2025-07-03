@@ -6,12 +6,12 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** | Upload ID | 
-**url** | **str** | URL to the uploaded file | 
+**url** | **str** | URL of the uploaded file | 
 **size** | **int** | File size in bytes | 
 **status** | [**UploadStatusEnum**](UploadStatusEnum.md) |  | 
 **name** | **str** | File name | 
-**action** | **str** | Upload URL | 
-**fields** | [**List[UploadInitOneOf1FieldsInner]**](UploadInitOneOf1FieldsInner.md) | Parameters to be sent with the file upload | 
+**action** | **str** | Upload endpoint URL | 
+**fields** | [**List[UploadByFileFieldsInner]**](UploadByFileFieldsInner.md) | Parameters to be submitted with the file during upload | 
 
 ## Example
 

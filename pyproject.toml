@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "postmypost_rest_sdk"
-version = "1.0.0"
+version = "1.0.4"
 description = "Postmypost REST API"
 authors = ["Postmypost Team <support@postmypost.io>"]
 license = "MIT"

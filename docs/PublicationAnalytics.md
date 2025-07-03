@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **created_at** | **datetime** | Post creation date and time | 
 **content** | **str** | Post text | [optional] 
 **analytics** | **Dict[str, float]** | Metrics for the post (e.g. views, likes, comments, etc.) | 
-**attaches** | [**List[Attach]**](Attach.md) | Array of attachments | 
+**attaches** | [**List[Attachment]**](Attachment.md) | Array of attachments | 
 
 ## Example
 
