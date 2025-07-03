@@ -15,10 +15,10 @@
 
 import unittest
 
-from postmypost_rest_sdk.models.init_upload_request import InitUploadRequest
+from postmypost_rest_sdk.models.attachment import Attachment
 
-class TestInitUploadRequest(unittest.TestCase):
-    """InitUploadRequest unit test stubs"""
+class TestAttachment(unittest.TestCase):
+    """Attachment unit test stubs"""
 
     def setUp(self):
         pass
@@ -26,32 +26,54 @@ class TestInitUploadRequest(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def make_instance(self, include_optional) -> InitUploadRequest:
-        """Test InitUploadRequest
+    def make_instance(self, include_optional) -> Attachment:
+        """Test Attachment
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # uncomment below to create an instance of `InitUploadRequest`
+        # uncomment below to create an instance of `Attachment`
         """
-        model = InitUploadRequest()
+        model = Attachment()
         if include_optional:
-            return InitUploadRequest(
-                project_id = 56,
-                url = '',
-                name = '',
-                size = 56
+            return Attachment(
+                type = 'image',
+                image = postmypost_rest_sdk.models.media_file.MediaFile(
+                    width = 1200, 
+                    height = 628, 
+                    url = 'https://example.com/image.jpg', ),
+                preview = postmypost_rest_sdk.models.media_file.MediaFile(
+                    width = 1200, 
+                    height = 628, 
+                    url = 'https://example.com/image.jpg', ),
+                video = postmypost_rest_sdk.models.media_file.MediaFile(
+                    width = 1200, 
+                    height = 628, 
+                    url = 'https://example.com/image.jpg', ),
+                link = postmypost_rest_sdk.models.link.Link(
+                    url = 'https://example.com', )
             )
         else:
-            return InitUploadRequest(
-                project_id = 56,
-                url = '',
-                name = '',
-                size = 56,
+            return Attachment(
+                type = 'image',
+                image = postmypost_rest_sdk.models.media_file.MediaFile(
+                    width = 1200, 
+                    height = 628, 
+                    url = 'https://example.com/image.jpg', ),
+                preview = postmypost_rest_sdk.models.media_file.MediaFile(
+                    width = 1200, 
+                    height = 628, 
+                    url = 'https://example.com/image.jpg', ),
+                video = postmypost_rest_sdk.models.media_file.MediaFile(
+                    width = 1200, 
+                    height = 628, 
+                    url = 'https://example.com/image.jpg', ),
+                link = postmypost_rest_sdk.models.link.Link(
+                    url = 'https://example.com', ),
         )
         """
 
-    def testInitUploadRequest(self):
-        """Test InitUploadRequest"""
+    def testAttachment(self):
+        """Test Attachment"""
         # inst_req_only = self.make_instance(include_optional=False)
         # inst_req_and_optional = self.make_instance(include_optional=True)
 

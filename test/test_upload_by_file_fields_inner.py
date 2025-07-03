@@ -15,10 +15,10 @@
 
 import unittest
 
-from postmypost_rest_sdk.models.publication_detail_publication_type_enum import PublicationDetailPublicationTypeEnum
+from postmypost_rest_sdk.models.upload_by_file_fields_inner import UploadByFileFieldsInner
 
-class TestPublicationDetailPublicationTypeEnum(unittest.TestCase):
-    """PublicationDetailPublicationTypeEnum unit test stubs"""
+class TestUploadByFileFieldsInner(unittest.TestCase):
+    """UploadByFileFieldsInner unit test stubs"""
 
     def setUp(self):
         pass
@@ -26,9 +26,28 @@ class TestPublicationDetailPublicationTypeEnum(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testPublicationDetailPublicationTypeEnum(self):
-        """Test PublicationDetailPublicationTypeEnum"""
-        # inst = PublicationDetailPublicationTypeEnum()
+    def make_instance(self, include_optional) -> UploadByFileFieldsInner:
+        """Test UploadByFileFieldsInner
+            include_option is a boolean, when False only required
+            params are included, when True both required and
+            optional params are included """
+        # uncomment below to create an instance of `UploadByFileFieldsInner`
+        """
+        model = UploadByFileFieldsInner()
+        if include_optional:
+            return UploadByFileFieldsInner(
+                key = '',
+                value = ''
+            )
+        else:
+            return UploadByFileFieldsInner(
+        )
+        """
+
+    def testUploadByFileFieldsInner(self):
+        """Test UploadByFileFieldsInner"""
+        # inst_req_only = self.make_instance(include_optional=False)
+        # inst_req_and_optional = self.make_instance(include_optional=True)
 
 if __name__ == '__main__':
     unittest.main()
